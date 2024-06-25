@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/style/common.css">
     <style>
         #blueBar {
-            background-color: rgb(2, 51, 152);
+            background-color: blue;
         }
 
         #MySpace {
@@ -20,18 +20,64 @@
         #google {
             height: 70px
         }
+
+        fieldset {
+            border: 1px solid gray;
+            max-width: 60%;
+            text-align: center;
+            display: inline;
+            padding: .5rem;
+            border-radius: 1rem;
+            margin-right: 3rem;
+        }
+        .container{
+            margin-top: 8rem;
+            
+        }
+        #why{
+            border: 1px solid gray;
+            height: 150px;
+            border-radius: 1rem;
+        }
     </style>
 </head>
 
 <body>
     <nav id="blueBar">
-        <img src="/microbloglite-capstone-starter/images/social-media-myspace-social-networking-service-logo-blog-social-media-fotor-bg-remover-2024062513413.png"
+        <img src="/microbloglite-capstone-starter/images/animyspace.png" alt="logo"
             id="MySpace">
         <input type="text" id="input" placeholder="Search Here">
         <button id="buttonElement2">Search</button>
         <img src="/microbloglite-capstone-starter/images/poweredbygoogle.png" alt="sign" id="google">
     </nav>
-    
+    <div class="container">
+        <div class="row">
+            <fieldset id="fieldset" class="col-sm-7 col-md-7 col-lg-7">
+                <legend id="name">Sign Up For AnimySpace</legend>
+                <span>Email Address: </span><input type="text" id="signName" placeholder="Email Address"><br>
+                <span>PassWord: </span><input type="text" id="signName" placeholder="PassWord"><br>
+                <span>Full Name: </span><input type="text" id="signName" placeholder="Full Name"><br>
+                <span>Date of Birth: </span><input type="date" id="signDate"><br>
+                <span>Gender: </span><input type="radio" class="signGender"><span>Female</span><input type="radio"
+                    class="signGender"><span>Male</span><br>
+                <button class="btn btn-warning">Sign Up</button><br>
+                <span>By Clicking Sign Up , you agree to AnimySpace Terms of Use and Privacy Policy.</span>
+                <hr>
+                <span>We do not spam. AnimySpace understands that user privacy is the key to our success. We wil email
+                    you the AnimySpace newsletter, notifications, exclusives, and product update, unless you opt out of
+                    these communications.</span>
+            </fieldset>
+            <p class="why col-sm-4 col-md-4 col-lg-4" id="why">
+                <span><strong>Why Signup for AnimySpace?</strong></span><br>
+                <span><img src="/microbloglite-capstone-starter/images/people-svgrepo-com.svg" alt="people" class="svg"> Stay in touch with friends and family!</span><br>
+                <span><img src="/microbloglite-capstone-starter/images/photos-svgrepo-com.svg" alt="photo" class="svg"> Share your photos albums & videos!</span><br>
+                <span><img src="/microbloglite-capstone-starter/images/search-globe-svgrepo-com.svg" alt="search" class="svg">Find old Classmates & Coworkers!</span><br>
+                <span><img src="/microbloglite-capstone-starter/images/smile-1-svgrepo-com.svg" alt="smile" class="svg">Its FREE!</span>
+            </p>
+        </div>
+    </div>
+
+
 
 
 </body>
