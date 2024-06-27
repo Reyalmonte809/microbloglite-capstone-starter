@@ -26,7 +26,7 @@ createButton.addEventListener("click", () => {
             text: bodyPost.value
 
         })
-    }).then(r => location = "/posts/")
+    }).then(r => location = "/body/blog.html")
 })
 
 function getMessage(message) {
