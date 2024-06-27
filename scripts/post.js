@@ -1,7 +1,7 @@
 function getPost(message){
     return`
-       <h1> ${message.text}</h1>
-       <div>${message.username}</div>
+       <h1> ${message.username}</h1>
+       <div>${message.text}</div>
        <div> likes: ${message.likes.length}</div>
        <hr>
 

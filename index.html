@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,27 +26,71 @@
     <script>
         if (isLoggedIn() === true) window.location.replace("/body/index.html");
     </script>
+    <link rel="stylesheet" href="/style/common.css">
+    <style>
+        #blueBar {
+            background-color: blue;
+        }
+
+
+        #google {
+            height: 70px
+        }
+
+        fieldset {
+            border: 1px solid gray;
+            max-width: 60%;
+            text-align: center;
+            display: inline;
+            padding: .5rem;
+            border-radius: 1rem;
+            margin-right: 3rem;
+        }
+        .container{
+            margin-top: 8rem;
+            
+        }
+        #why{
+            border: 1px solid gray;
+            height: 150px;
+            border-radius: 1rem;
+        }
+    </style>
 </head>
+
 <body>
+    <nav id="blueBar">
+        <img src="/images/animyspace.png" alt="logo"
+        id="animyspace">
+        <input type="text" id="input" placeholder="Search Here">
+        <button id="buttonElement2">Search</button>
+        <img src="/images/poweredbygoogle.png" alt="sign" id="google">
+    </nav>
 
     <header>
-        <h1>Welcome to <code>YOUR MICROBLOG NETWORK</code></h1>
+        <h1>Sign in to AnimySpace</h1>
+        <p>Use Facebook, Twitter or your email to sign in:</p>
+        <p>Don't have a AnimySpace account yet? No Worries. Joining is easy</p>
     </header>
 
     <main>
+        <div id="ftlogo">
+            <img src="/images/facebook.png" alt="facebook" class="ftpic">
+            <img src="/images/twitter.png" alt="twitter" class="ftpic">
+        </div>
 
         <form id="login">
             <div>
-                <label for="username">Username</label>
+                <label for="username" class="push">Username</label><br>
                 <input type="text" id="username" minlength="3">
             </div>
 
             <div>
-                <label for="password">Password</label>
+                <label for="password" class="push">Password</label><br>
                 <input type="password" id="password" minlength="6">
             </div>
 
-            <button id="loginButton" type="submit">Login</button>
+            <button id="loginButton" type="submit" class="btn btn-primary">Sign In</button>
         </form>
 
     </main>
@@ -55,4 +100,5 @@
     <!-- Page-specific code -->
     <script src="./landing.js"></script>
 </body>
+
 </html>
