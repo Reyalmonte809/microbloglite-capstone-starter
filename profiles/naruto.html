@@ -55,7 +55,7 @@
                     <span>Land of Fire</span><br>
                     <br>
                     <span>Last Login:</span>
-                    <span>6/24/2024</span>
+                    <span id="date2">6/24/2024</span>
                 </div>
 
             </div>
@@ -82,3 +82,12 @@
                 </div>
         </div>
     </div>
+    <script>
+        const date = new Date();
+        const month = date.getMonth() + 1;
+        const day = date.getDate();
+        const year = date.getFullYear();
+    
+        const formattedDate = `${month}/${day}/${year}`;
+        date2.innerHTML = formattedDate
+        </script>

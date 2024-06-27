@@ -58,7 +58,7 @@ function login(loginData) {
             window.localStorage.token = loginData.token; //simple string
             window.localStorage.username = loginData.username; //simple string
             window.location = "/body/index.html";  // redirect
-
+            debugger
             return loginData;
         });
 }

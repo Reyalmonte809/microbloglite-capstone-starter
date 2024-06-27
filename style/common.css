@@ -39,7 +39,8 @@ nav{
     margin-top: 2rem;
     border: 1px solid cornflowerblue;
     padding: 0 0 2rem 0;
-    height: 280px;
+    height: 350px;
+    width: 350px;
 }
 #name{
     color: white;
@@ -102,8 +103,8 @@ nav{
 
 
 #myTop img{
-    height: 150px;
-    width: 140px;
+    height: 110px;
+    width: 110px;
     padding: 1rem;
 }
 #topTitle{
@@ -161,7 +162,7 @@ nav{
     border: 1px orange solid;
     padding: .5rem;
     border-radius: 1rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
 }
 .navbar{
     font-size: 25px;
