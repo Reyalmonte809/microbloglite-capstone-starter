@@ -1,0 +1,261 @@
+body{
+    background-color: whitesmoke;
+}
+.searchBar{
+    background-color: blue;
+    padding: 1rem;
+    text-align: center;
+}
+#power{
+    height:70px;
+ 
+}
+nav a{
+    color: white;
+    text-decoration: none ;
+}
+nav{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: .5rem;
+}
+.profile {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.headshot {
+    float: left; 
+    margin-right: 20px; 
+}
+
+.profile-details {
+    flex: 1; 
+}
+
+#profile{
+    background-color:rgb(150, 187, 255) ;
+    margin-top: 2rem;
+    border: 1px solid cornflowerblue;
+    padding: 0 0 2rem 0;
+    height: 280px;
+}
+#name{
+    color: white;
+    background-color: cornflowerblue;
+}
+#blogSpot{
+    margin-top: 2rem;
+    
+}
+#date{
+    border: 1px solid;
+    max-width: 25%;
+    text-align: center;
+    display: inline-block;
+    margin-left: 25rem; 
+   /* padding-bottom: 1rem; */
+    box-sizing: border-box;
+    height: 170px;
+    width: 120px;
+}
+#dateElement{
+    background-color: blue;
+    display: block;
+    color: white;
+    
+}
+#bloginfo{
+    display: inline-block;
+    max-width: 70%;
+    margin-left: 5rem;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+}
+#blogSpot{
+    position: relative;
+}
+#myMail{
+    border: 1px cornflowerblue solid;
+    margin-top: 2rem;
+    height: 140px;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+#mailTitle{
+    background-color: cornflowerblue;
+    display: block;
+    color: white;
+    
+}
+.message, .bulletin{
+    display:block;
+    color: cornflowerblue;
+     padding-bottom: 1rem;
+}
+.svg{
+    height: 15px;
+    width: 15px;
+}
+
+
+#myTop img{
+    height: 150px;
+    width: 140px;
+    padding: 1rem;
+}
+#topTitle{
+    background-color: gold;
+
+}
+
+#myTop{
+    border: 1px solid gold;
+    padding: .5rem;
+    border-radius: 1rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-left: 5rem;
+}
+#myURL{
+    border: 1px solid cornflowerblue;
+    height: 100px;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+.urlElement{
+          background-color: cornflowerblue;
+}
+.bio{
+    background-color: orange;
+}
+#mybio{
+    margin-top: 2rem;
+    border: 1px orange solid;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-left: 5rem;
+}
+.biopad{
+    padding: 1rem;
+}
+.everyPost{
+    background-color: red;
+}
+#myPost{
+    border: 1px solid red;
+    padding: .5rem;
+    border-radius: 1rem;
+}
+.whitetext{
+    color:white;
+    background-color: rgba( 0, 0, 0, .4);
+}
+#animyspace{
+    height:100px;
+}
+#mybio2{
+    margin-top: 2rem;
+    border: 1px orange solid;
+    padding: .5rem;
+    border-radius: 1rem;
+    margin-left: 5rem;
+}
+.navbar{
+    font-size: 25px;
+}
+#mailLogo{
+    height:100px;
+    margin: 2rem 0rem 2rem 2rem;
+}
+#mailText{
+    font-size: 3rem;
+    color: blue;
+    font-weight: bolder;
+}
+.blue{
+    color:cornflowerblue;
+}
+#mailRoom{
+    margin-left: 1rem;
+    text-align: center;
+}
+#mailPic{
+    height: 100px;
+    width: 100px;
+    margin-top: 1rem;
+    margin: .5rem;
+}
+#mailButton{
+    border-radius: .5rem;
+    margin: 0 .5rem;
+}
+#mailBox{
+    margin-left: 3rem;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    box-shadow: .25rem .25rem .25rem;
+    padding: 1rem;
+}
+#mailTextColor{
+    background-color: cornflowerblue;
+    font-size: 24pt;
+    margin-bottom: 1rem;
+}
+#buttonRow{
+    margin-bottom: 1rem;
+}
+#listenLOGO{
+    height: 100px;
+    width: 150px;
+}
+#musicPage{
+    border: 1px solid red;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 35rem;
+    margin-left: 2rem;
+    background-color: rgba(243, 219, 6, 0.2);
+    text-align: center;
+    margin-right: 10rem;
+    height: 220px;
+    color: white;
+    
+}
+.bigText{
+    font-size: 24pt;
+}
+.musicRed{
+    background-color: red;
+    color: white;
+    
+}
+
+#musicTab{
+    margin-top: 35rem;
+}
+
+#videoPage{
+    border: 1px solid red;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    background-color: rgba(243, 219, 6, 0.2);
+    text-align: center;
+    margin-right: 3rem;
+    height: 220px;
+    color:black;
+}
+
+.videoRed{
+    background-color: red;
+    color: white;
+    
+}
+#videoTab{
+    margin-top: 3rem;
+
+}
