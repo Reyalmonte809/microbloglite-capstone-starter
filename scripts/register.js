@@ -6,11 +6,11 @@ function register() {
             "accept": "application/json"
         },
         body: JSON.stringify({
-            username: username.value,
-            fullName: fullname.value,
-            password: password.value
+            "username": signName.value,
+            "fullName": signFull.value,
+            "password": signPass.value
         })
-    }).then(() => location = "/"); //TODO check for failure
+    }).then(() => location = "/");
 }
 
 registerButton.addEventListener("click", register)
