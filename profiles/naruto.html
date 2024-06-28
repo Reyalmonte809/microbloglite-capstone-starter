@@ -22,6 +22,7 @@
 </head>
 
 <body>
+    <!---------------------navbar------------------------------->
     <div id="searchBar" class="searchBar">
         <img src="/images/animyspace.png" alt="logo" id="animyspace">
         <input type="text" class="search" id="search">
@@ -43,6 +44,7 @@
     </div>
     <div class="container">
         <div class="row">
+            <!-----------profile--------------->
             <div class="col-sm-4 col-md-4 col-lg-4" id="profile">
                 <p id="name"><strong>Hello, Naruto Uzumaki</strong> </p>
                 <img src="/images/naruto.jpg" alt="headshot" id="narutoheadshot" class="headshot">
@@ -59,9 +61,7 @@
 
             </div>
             <div id="mybio2" class="col-sm-7 col-md-7 col-lg-7">
-                <!-- <audio controls>
-                    <source src="">
-                </audio> -->
+             <!------------------bio----------------------->
                 <div class="bio">Naruto Biography</div>
                 <div class="whitetext"> "Naruto" is a beloved Japanese manga and anime series created by Masashi
                     Kishimoto. The story revolves around Naruto Uzumaki, a spirited and mischievous young ninja from the
@@ -81,6 +81,7 @@
                     is to become the Hokage, the leader of his village, in order to earn the respect and recognition he
                     has always sought, while also aspiring to bring peace to the ninja world.<br></div>
             </div>
+            <!---------------------music----------------------->
             <div id="myGeneral" class="col-sm-5 col-md-5 col-lg-5">
                 <iframe style="border-radius:12px"
                     src="https://open.spotify.com/embed/track/1bEnIDpwKsyhDauHVoMz6t?utm_source=generator" width="352"
@@ -88,6 +89,7 @@
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                     loading="lazy"></iframe>
             </div>
+            <!----------------------blog------------------------->
             <div id="myPost" class="col-sm-7 col-md-7 col-lg-7">
                 <div class="everyPost" id="everyPost">
                     <strong>Naruto's TimeLine</strong>
@@ -98,6 +100,7 @@
             </div>
         </div>
         <script>
+            ///////////////////////////new date///////////////////////
             const date = new Date();
             const month = date.getMonth() + 1;
             const day = date.getDate() - 5;

@@ -42,6 +42,7 @@ nav{
 #name{
     color: white;
     background-color: cornflowerblue;
+    
 }
 #blogSpot{
     margin-top: 2rem;
@@ -310,4 +311,8 @@ footer{
     width: 100%;
     text-align: center;
     color: white;
+}
+
+fieldset{
+    margin-bottom: 5rem;
 }

@@ -22,6 +22,7 @@
 </head>
 
 <body>
+  <!-----------------------navbar---------------------->
     <div id="searchBar" class="searchBar">
         <img src="/images/animyspace.png" alt="logo" id="animyspace">
         <input type="text" class="search" id="search">
@@ -43,6 +44,7 @@
     </div>
     <div class="container">
         <div class="row">
+            <!---------------------profile------------------->
             <div class="col-sm-4 col-md-4 col-lg-4" id="profile">
                 <p id="name"><strong>Hello, Goku</strong> </p>
                 <img src="/images/goku.jpg" alt="headshot" id="gokuheadshot" class="headshot">
@@ -59,6 +61,7 @@
                 </div>
 
             </div>
+            <!-------------------------------bio---------------->
             <div id="mybio2" class="col-sm-7 col-md-7 col-lg-7">
                 <div class="bio">Goku Biography</div>
                 <div class="whitetext"> Goku is a central character in the popular Japanese manga and anime series
@@ -80,6 +83,7 @@
                     from a carefree and naive martial artist into a legendary hero whose exploits inspire generations of
                     fans worldwide.<br></div>
             </div>
+            <!----------------------theme song--------------->
             <div id="myGeneral" class="col-sm-5 col-md-5 col-lg-5">
                 <iframe style="border-radius:12px"
                     src="https://open.spotify.com/embed/track/1z9nybTrHWvnbQjBT5DSAd?utm_source=generator" width="352"
@@ -87,6 +91,7 @@
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                     loading="lazy"></iframe>
             </div>
+            <!------------------------timeline--------------------->
             <div id="myPost" class="col-sm-7 col-md-7 col-lg-7">
                 <div class="everyPost" id="everyPost">
                     <strong>Goku's TimeLine</strong>
@@ -97,6 +102,7 @@
             </div>
         </div>
         <script>
+            //////////////////////////new date/////////////////////////////
             const date = new Date();
             const month = date.getMonth() + 1;
             const day = date.getDate() - 3;
