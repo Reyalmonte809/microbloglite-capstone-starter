@@ -5,12 +5,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="/style/common.css">
+    <title>Ichigo</title>
     <style>
-        #rimaruheadshot{
-            height:200px;
+        #rimaruheadshot {
+            height: 200px;
             width: 200px;
         }
-        body{
+
+        body {
             background-image: url(/images/bleach.jpeg);
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -21,8 +23,7 @@
 
 <body>
     <div id="searchBar" class="searchBar">
-        <img src="/images/animyspace.png" alt="logo"
-        id="animyspace">
+        <img src="/images/animyspace.png" alt="logo" id="animyspace">
         <input type="text" class="search" id="search">
         <select id="dropdown" class="dropdown">
             <option id="dropdownElement" class="dropdownElement">AnimySpace</option>
@@ -42,10 +43,9 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-4 col-md-4 col-lg-4" id="profile" class="profile">
+            <div class="col-sm-4 col-md-4 col-lg-4" id="profile">
                 <p id="name"><strong>Hello, Ichigo Kurosaki</strong> </p>
-                <img src="/images/IchigoKurosakiBleach.jpg" alt="headshot" id="rimaruheadshot"
-                    class="headshot">
+                <img src="/images/IchigoKurosakiBleach.jpg" alt="headshot" id="rimaruheadshot" class="headshot">
                 <span><strong>Mood: Getsuga Tensho</strong></span><br>
                 <div id="status" class="status">
                     <span>Male</span><br>
@@ -60,14 +60,34 @@
             </div>
             <div id="mybio2" class="col-sm-7 col-md-7 col-lg-7">
                 <div class="bio">Ichigo Biography</div>
-                <div class="whitetext"> Ichigo Kurosaki is the main protagonist of the manga and anime series "Bleach," created by Tite Kubo. Initially introduced as a high school student with the ability to see ghosts, Ichigo's life changes drastically when he inadvertently acquires the powers of a Soul Reaper (Shinigami). This transformation occurs when he encounters Rukia Kuchiki, a Soul Reaper who transfers her powers to him in order to defeat a Hollow, a malevolent spirit that preys on human souls.<br>
+                <div class="whitetext"> Ichigo Kurosaki is the main protagonist of the manga and anime series "Bleach,"
+                    created by Tite Kubo. Initially introduced as a high school student with the ability to see ghosts,
+                    Ichigo's life changes drastically when he inadvertently acquires the powers of a Soul Reaper
+                    (Shinigami). This transformation occurs when he encounters Rukia Kuchiki, a Soul Reaper who
+                    transfers her powers to him in order to defeat a Hollow, a malevolent spirit that preys on human
+                    souls.<br>
 
-                    As a newly minted Soul Reaper, Ichigo assumes the responsibility of protecting the living world from Hollows and guiding lost souls to the afterlife. Despite his initial reluctance and inexperience, Ichigo's determination to protect his loved ones and uphold justice drives him to master his newfound abilities and confront increasingly powerful adversaries. Alongside his friends, including his childhood friend Orihime Inoue, the mysterious Uryu Ishida, and the hot-headed Chad, Ichigo navigates a world filled with supernatural threats while uncovering hidden truths about his own lineage and the origins of his powers.<br>
-                    
-                    Throughout "Bleach," Ichigo's character evolves from a hotheaded teenager driven by impulse to a mature and capable leader who earns the respect and admiration of both allies and enemies alike. His journey is characterized by intense battles, personal growth, and the exploration of complex themes such as duty, sacrifice, and the consequences of wielding immense power. Ultimately, Ichigo's quest as a Soul Reaper becomes intertwined with uncovering the mysteries of the Soul Society and his own destiny.<br></div>
+                    As a newly minted Soul Reaper, Ichigo assumes the responsibility of protecting the living world from
+                    Hollows and guiding lost souls to the afterlife. Despite his initial reluctance and inexperience,
+                    Ichigo's determination to protect his loved ones and uphold justice drives him to master his
+                    newfound abilities and confront increasingly powerful adversaries. Alongside his friends, including
+                    his childhood friend Orihime Inoue, the mysterious Uryu Ishida, and the hot-headed Chad, Ichigo
+                    navigates a world filled with supernatural threats while uncovering hidden truths about his own
+                    lineage and the origins of his powers.<br>
+
+                    Throughout "Bleach," Ichigo's character evolves from a hotheaded teenager driven by impulse to a
+                    mature and capable leader who earns the respect and admiration of both allies and enemies alike. His
+                    journey is characterized by intense battles, personal growth, and the exploration of complex themes
+                    such as duty, sacrifice, and the consequences of wielding immense power. Ultimately, Ichigo's quest
+                    as a Soul Reaper becomes intertwined with uncovering the mysteries of the Soul Society and his own
+                    destiny.<br></div>
             </div>
             <div id="myGeneral" class="col-sm-5 col-md-5 col-lg-5">
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/4dW80zBgl9BfWxi5upKgt1?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/4dW80zBgl9BfWxi5upKgt1?utm_source=generator" width="352"
+                    height="352" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
             </div>
             <div id="myPost" class="col-sm-7 col-md-7 col-lg-7">
                 <div class="everyPost" id="everyPost">
@@ -76,16 +96,20 @@
                 <div class="whitetext" id="postElement">
 
                 </div>
+            </div>
         </div>
-    </div>
-    <script>
-        const date = new Date();
-        const month = date.getMonth() + 1;
-        const day = date.getDate();
-        const year = date.getFullYear();
-    
-        const formattedDate = `${month}/${day}/${year}`;
-        date2.innerHTML = formattedDate
+        <script>
+            const date = new Date();
+            const month = date.getMonth() + 1;
+            const day = date.getDate();
+            const year = date.getFullYear();
+
+            const formattedDate = `${month}/${day}/${year}`;
+            date2.innerHTML = formattedDate
         </script>
-<script src="/auth.js"></script>
-<script src="/scripts/post.js"></script>
+        <script src="/auth.js"></script>
+        <script src="/scripts/post.js"></script>
+    </div>
+</body>
+
+</html>

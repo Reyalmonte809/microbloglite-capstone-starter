@@ -19,11 +19,7 @@ nav{
     text-align: center;
     padding: .5rem;
 }
-.profile {
-    display: flex;
-    align-items: flex-start;
 
-}
 
 .headshot {
     float: left; 
@@ -193,6 +189,12 @@ nav{
     text-align: center;
 }
 #mailPic{
+    height: 100px;
+    width: 100px;
+    margin-top: 1rem;
+    margin: .5rem;
+}
+#mailPics{
     height: 100px;
     width: 100px;
     margin-top: 1rem;

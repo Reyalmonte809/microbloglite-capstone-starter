@@ -5,12 +5,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="/style/common.css">
+    <title>Naruto</title>
     <style>
-        #narutoheadshot{
-            height:200px;
+        #narutoheadshot {
+            height: 200px;
             width: 200px;
         }
-        body{
+
+        body {
             background-image: url(/images/naruto-background.jpg);
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -21,8 +23,7 @@
 
 <body>
     <div id="searchBar" class="searchBar">
-        <img src="/images/animyspace.png" alt="logo"
-        id="animyspace">
+        <img src="/images/animyspace.png" alt="logo" id="animyspace">
         <input type="text" class="search" id="search">
         <select id="dropdown" class="dropdown">
             <option id="dropdownElement" class="dropdownElement">AnimySpace</option>
@@ -42,10 +43,9 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-4 col-md-4 col-lg-4" id="profile" class="profile">
+            <div class="col-sm-4 col-md-4 col-lg-4" id="profile">
                 <p id="name"><strong>Hello, Naruto Uzumaki</strong> </p>
-                <img src="/images/naruto.jpg" alt="headshot" id="narutoheadshot"
-                    class="headshot">
+                <img src="/images/naruto.jpg" alt="headshot" id="narutoheadshot" class="headshot">
                 <span><strong>Mood: Believe It</strong></span><br>
                 <div id="status" class="status">
                     <span>Male</span><br>
@@ -63,14 +63,30 @@
                     <source src="">
                 </audio> -->
                 <div class="bio">Naruto Biography</div>
-                <div class="whitetext"> "Naruto" is a beloved Japanese manga and anime series created by Masashi Kishimoto. The story revolves around Naruto Uzumaki, a spirited and mischievous young ninja from the Hidden Leaf Village, who dreams of becoming the strongest ninja and earning the respect of his fellow villagers. However, Naruto carries a burden from birth - he is the host of the Nine-Tailed Fox, a powerful and malevolent creature sealed within him, which has led to him being ostracized by many.<br>
+                <div class="whitetext"> "Naruto" is a beloved Japanese manga and anime series created by Masashi
+                    Kishimoto. The story revolves around Naruto Uzumaki, a spirited and mischievous young ninja from the
+                    Hidden Leaf Village, who dreams of becoming the strongest ninja and earning the respect of his
+                    fellow villagers. However, Naruto carries a burden from birth - he is the host of the Nine-Tailed
+                    Fox, a powerful and malevolent creature sealed within him, which has led to him being ostracized by
+                    many.<br>
 
-                    Despite facing prejudice and loneliness, Naruto's determination and optimism never waver. He joins the Ninja Academy and forms bonds with his classmates, including Sasuke Uchiha and Sakura Haruno, under the guidance of their teacher Kakashi Hatake. As the series progresses, Naruto embarks on various missions and adventures, all while striving to prove his worth and protect his friends.<br>
-                    
-                    Throughout his journey, Naruto grows both as a ninja and as a person, learning valuable lessons about friendship, perseverance, and the true meaning of strength. The series explores themes of acceptance, redemption, and the impact of one's upbringing on their identity. Naruto's ultimate goal is to become the Hokage, the leader of his village, in order to earn the respect and recognition he has always sought, while also aspiring to bring peace to the ninja world.<br></div>
+                    Despite facing prejudice and loneliness, Naruto's determination and optimism never waver. He joins
+                    the Ninja Academy and forms bonds with his classmates, including Sasuke Uchiha and Sakura Haruno,
+                    under the guidance of their teacher Kakashi Hatake. As the series progresses, Naruto embarks on
+                    various missions and adventures, all while striving to prove his worth and protect his friends.<br>
+
+                    Throughout his journey, Naruto grows both as a ninja and as a person, learning valuable lessons
+                    about friendship, perseverance, and the true meaning of strength. The series explores themes of
+                    acceptance, redemption, and the impact of one's upbringing on their identity. Naruto's ultimate goal
+                    is to become the Hokage, the leader of his village, in order to earn the respect and recognition he
+                    has always sought, while also aspiring to bring peace to the ninja world.<br></div>
             </div>
             <div id="myGeneral" class="col-sm-5 col-md-5 col-lg-5">
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1bEnIDpwKsyhDauHVoMz6t?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>                           
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/1bEnIDpwKsyhDauHVoMz6t?utm_source=generator" width="352"
+                    height="352" allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
             </div>
             <div id="myPost" class="col-sm-7 col-md-7 col-lg-7">
                 <div class="everyPost" id="everyPost">
@@ -79,16 +95,20 @@
                 <div class="whitetext" id="postElement">
 
                 </div>
+            </div>
         </div>
-    </div>
-    <script>
-        const date = new Date();
-        const month = date.getMonth() + 1;
-        const day = date.getDate() - 5;
-        const year = date.getFullYear();
-    
-        const formattedDate = `${month}/${day}/${year}`;
-        date2.innerHTML = formattedDate
+        <script>
+            const date = new Date();
+            const month = date.getMonth() + 1;
+            const day = date.getDate() - 5;
+            const year = date.getFullYear();
+
+            const formattedDate = `${month}/${day}/${year}`;
+            date2.innerHTML = formattedDate
         </script>
-<script src="/auth.js"></script>
-<script src="/scripts/post.js"></script>        
+        <script src="/auth.js"></script>
+        <script src="/scripts/post.js"></script>
+    </div>
+</body>
+
+</html>

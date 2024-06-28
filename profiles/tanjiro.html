@@ -5,12 +5,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="/style/common.css">
+    <title>Tanjiro</title>
     <style>
-        #rimaruheadshot{
-            height:200px;
+        #rimaruheadshot {
+            height: 200px;
             width: 200px;
         }
-        body{
+
+        body {
             background-image: url(/images/demonslayer.jpg);
             background-repeat: no-repeat;
             background-attachment: fixed;
@@ -21,8 +23,7 @@
 
 <body>
     <div id="searchBar" class="searchBar">
-        <img src="/images/animyspace.png" alt="logo"
-        id="animyspace">
+        <img src="/images/animyspace.png" alt="logo" id="animyspace">
         <input type="text" class="search" id="search">
         <select id="dropdown" class="dropdown">
             <option id="dropdownElement" class="dropdownElement">AnimySpace</option>
@@ -42,10 +43,9 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-sm-4 col-md-4 col-lg-4" id="profile" class="profile">
+            <div class="col-sm-4 col-md-4 col-lg-4" id="profile">
                 <p id="name"><strong>Hello, Tanjiro Kamado</strong> </p>
-                <img src="/images/tanjiro.jpg" alt="headshot" id="rimaruheadshot"
-                    class="headshot">
+                <img src="/images/tanjiro.jpg" alt="headshot" id="rimaruheadshot" class="headshot">
                 <span><strong>Mood: Sister lover</strong></span><br>
                 <div id="status" class="status">
                     <span>Male</span><br>
@@ -60,14 +60,32 @@
             </div>
             <div id="mybio2" class="col-sm-7 col-md-7 col-lg-7">
                 <div class="bio">Tanjiro Biography</div>
-                <div class="whitetext">Tanjiro Kamado is the main protagonist of the manga and anime series "Demon Slayer: Kimetsu no Yaiba," created by Koyoharu Gotouge. He begins his journey as a kind-hearted and determined young boy who lives peacefully with his family in the mountains. However, tragedy strikes when demons massacre his family, leaving his younger sister Nezuko as the sole survivor—though she is transformed into a demon herself.<br>
+                <div class="whitetext">Tanjiro Kamado is the main protagonist of the manga and anime series "Demon
+                    Slayer: Kimetsu no Yaiba," created by Koyoharu Gotouge. He begins his journey as a kind-hearted and
+                    determined young boy who lives peacefully with his family in the mountains. However, tragedy strikes
+                    when demons massacre his family, leaving his younger sister Nezuko as the sole survivor—though she
+                    is transformed into a demon herself.<br>
 
-                    Driven by a strong sense of justice and love for his sister, Tanjiro vows to find a cure for Nezuko and avenge his family by becoming a Demon Slayer. His journey takes him into a world of danger and supernatural threats, where he trains rigorously under the tutelage of experienced Demon Slayers to harness his skills and develop his own unique fighting style. Alongside his companions, including the boisterous Zenitsu Agatsuma and the stoic Inosuke Hashibira, Tanjiro embarks on missions to eradicate demons and uncover the secrets of their existence.<br>
-                    
-                    Tanjiro is characterized by his unwavering compassion, empathy towards both humans and demons, and a determination to protect others from suffering. His journey is not only about physical combat but also about understanding the complexities of good and evil, forgiveness, and the resilience of the human spirit in the face of tragedy. Throughout the series, Tanjiro's growth as a Demon Slayer is marked by his unwavering resolve and his quest to restore his sister's humanity, making him a compelling and beloved protagonist in the world of anime and manga.<br></div>
+                    Driven by a strong sense of justice and love for his sister, Tanjiro vows to find a cure for Nezuko
+                    and avenge his family by becoming a Demon Slayer. His journey takes him into a world of danger and
+                    supernatural threats, where he trains rigorously under the tutelage of experienced Demon Slayers to
+                    harness his skills and develop his own unique fighting style. Alongside his companions, including
+                    the boisterous Zenitsu Agatsuma and the stoic Inosuke Hashibira, Tanjiro embarks on missions to
+                    eradicate demons and uncover the secrets of their existence.<br>
+
+                    Tanjiro is characterized by his unwavering compassion, empathy towards both humans and demons, and a
+                    determination to protect others from suffering. His journey is not only about physical combat but
+                    also about understanding the complexities of good and evil, forgiveness, and the resilience of the
+                    human spirit in the face of tragedy. Throughout the series, Tanjiro's growth as a Demon Slayer is
+                    marked by his unwavering resolve and his quest to restore his sister's humanity, making him a
+                    compelling and beloved protagonist in the world of anime and manga.<br></div>
             </div>
             <div id="myGeneral" class="col-sm-5 col-md-5 col-lg-5">
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/0qMip0B2D4ePEjBJvAtYre?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:12px"
+                    src="https://open.spotify.com/embed/track/0qMip0B2D4ePEjBJvAtYre?utm_source=generator" width="352"
+                    height="352"  allowfullscreen=""
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                    loading="lazy"></iframe>
             </div>
             <div id="myPost" class="col-sm-7 col-md-7 col-lg-7">
                 <div class="everyPost" id="everyPost">
@@ -76,16 +94,20 @@
                 <div class="whitetext" id="postElement">
 
                 </div>
+            </div>
         </div>
-    </div>
-    <script>
-        const date = new Date();
-        const month = date.getMonth() + 1;
-        const day = date.getDate() - 4;
-        const year = date.getFullYear();
-    
-        const formattedDate = `${month}/${day}/${year}`;
-        date2.innerHTML = formattedDate
+        <script>
+            const date = new Date();
+            const month = date.getMonth() + 1;
+            const day = date.getDate() - 4;
+            const year = date.getFullYear();
+
+            const formattedDate = `${month}/${day}/${year}`;
+            date2.innerHTML = formattedDate
         </script>
-<script src="/auth.js"></script>
-<script src="/scripts/post.js"></script>
+        <script src="/auth.js"></script>
+        <script src="/scripts/post.js"></script>
+    </div>
+</body>
+
+</html>
