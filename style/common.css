@@ -39,7 +39,7 @@ nav{
     margin-top: 2rem;
     border: 1px solid cornflowerblue;
     padding: 0 0 2rem 0;
-    height: 350px;
+    height: 320px;
     width: 350px;
     box-shadow: .25rem .25rem .15rem;
 }
@@ -290,7 +290,7 @@ nav{
 .bodyPost{
     margin-top: 2rem;
     width: 350px;
-    margin-left: ;
+
 }
 #spanSpace{
     margin-right:3rem
