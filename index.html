@@ -6,8 +6,21 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/common.css">
     <title>Home</title>
+    <style>
+        @media (min-width: 320px) and (max-width: 1000px) {
+            /* Styles for phones and small tablets */
+            #profile, #bloginfo, #myMail, #myTop, #myURL, #mybio {
+                width: 100%; /* Set a width */
+                margin: 2 auto; /* Auto margin will center the div */
+            }
+             #bloginfo, #myTop, #mybio{
+                margin: 3rem 0 3rem 0 ;
+            }
+        }
+    </style>
 </head>
 <!--                               navbar                                  -->
+
 <body>
     <div id="searchBar" class="searchBar">
         <img src="./images/animyspace.png" alt="logo" id="animyspace">
@@ -36,7 +49,7 @@
                 <p id="name"><strong>Hello, Ricky Spanish</strong> </p>
                 <img src="./images/headshot.png" alt="headshot" id="headshot" class="headshot">
                 <span><strong>Mood: CONFUSED</strong></span><br>
-               <!--------------------- Profile  --------------------------->
+                <!--------------------- Profile  --------------------------->
                 <div id="status" class="status">
                     <span>Male</span><br>
                     <span>1601 Years old</span><br>
@@ -49,7 +62,7 @@
                 </div>
 
             </div>
-<!--------------      blog corner                    --------------------------->
+            <!--------------      blog corner                    --------------------------->
             <div class="col-sm-12 col-md-7 col-lg-7" id="blogSpot">
                 <div class="bloginfo" id="bloginfo">
                     <span>
@@ -65,6 +78,7 @@
                     <span>50</span>
                 </div>
             </div>
+            <br><br>
             <!---------------------MailBox-------------------------->
             <div id="myMail" class="col-sm-12 col-md-4 col-lg-4">
                 <div class="mymailElement">
@@ -78,8 +92,8 @@
                             Message</a></span>
                 </div>
                 <div class="bulletin  d-flex justify-content-around " id="bulletin">
-                    <span class="rightTopic"><img src="./images/checklist-svgrepo-com.svg" alt="bulletin" class="svg"> <a
-                            href="./body/blog.html">
+                    <span class="rightTopic"><img src="./images/checklist-svgrepo-com.svg" alt="bulletin" class="svg">
+                        <a href="./body/blog.html">
                             Bulletin</a></span>
                     <span class="=leftTopic"><img src="./images/checklist-svgrepo-com(1).svg" alt="bulletin"
                             class="svg"><a href="./body/blog.html"> Post Bulletin</a></span>
@@ -157,7 +171,7 @@
         date2.innerHTML = formattedDate
 
     </script>
- 
+
 </body>
 
 </html>
