@@ -6,6 +6,22 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/common.css">
     <title>Mail</title>
+    <style>
+        @media (min-width: 320px) and (max-width: 1000px) {
+
+            /* Styles for phones and small tablets */
+            
+                #mailBox {
+                /* max-width: 0%; */
+                width: 65%;
+            }
+            #mailIcon{
+                width: 100%;
+                text-align: center;           
+            }
+
+        }
+    </style>
 </head>
 
 <body>
@@ -23,10 +39,10 @@
     <div>
         <nav id="navbar" class="navbar">
             <a href="../index.html">Home </a>
-            <a href="../mail.html">Mail </a>
-            <a href="../blog.html">Blog </a>
-            <a href="../videos.html">Videos </a>
-            <a href="../music.html">Music </a>
+            <a href="./mail.html">Mail </a>
+            <a href="./blog.html">Blog </a>
+            <a href="./videos.html">Videos </a>
+            <a href="./music.html">Music </a>
         </nav>
     </div>
     <!----------------------MailBOX------------------------------->
@@ -47,31 +63,37 @@
                 <span class="blue">Address Book</span> <br>
                 <hr>
             </div>
-                <!----------------------Unread Messages----------------------------->
+            <!----------------------Unread Messages----------------------------->
             <div class="col-sm-9 col-md-9 col-lg-9" id="mailBox">
                 <div id="mailTextColor">
                     Inbox
                 </div>
                 <div id="buttonRow">
                     <input type="checkbox" id="mailCheckbox1">
-                    <button class="mailButton">Delete</button> 
-                    <button class="mailButton">Junk</button> 
-                    <button class="mailButton">Move</button> 
-                    <button class="mailButton">Sort</button> 
+                    <button class="mailButton">Delete</button>
+                    <button class="mailButton">Junk</button>
+                    <button class="mailButton">Move</button>
+                    <button class="mailButton">Sort</button>
                 </div>
-                <div>Listing 1-2 of 2</div><hr>
+                <div>Listing 1-2 of 2</div>
+                <hr>
+
                 <div>
                     <input type="checkbox" id="mailCheckbox">
                     <img src="../images/tanjiro.jpg" alt="ainz" id="mailPic">
-                    <span id="spanSpace2"> Tanjiro Kamado</span><img src="../images/mail-exclamation-svgrepo-com.svg" alt="unread" class="svg">
+                    <span id="spanSpace2"> Tanjiro Kamado</span><img src="../images/mail-exclamation-svgrepo-com.svg"
+                        alt="unread" class="svg">
                     <span>Hey if you hear from Ainz he's lying about what you heard...</span>
-                </div><hr>
+                </div>
+                <hr>
                 <div>
                     <input type="checkbox" id="mailCheckboxs">
                     <img src="../images/ainz.png" alt="ainz" id="mailPics">
-                    <span id="spanSpace"> Ainz Ooal Gown</span><img src="../images/mail-exclamation-svgrepo-com.svg" alt="unread" class="svg">
+                    <span id="spanSpace"> Ainz Ooal Gown</span><img src="../images/mail-exclamation-svgrepo-com.svg"
+                        alt="unread" class="svg">
                     <span> Hey you would never guess what I saw Tanjiro Doing with his Sister!!!...</span>
                 </div>
+
             </div>
         </div>
     </div>
@@ -80,4 +102,5 @@
         &copy;ALCON
     </footer>
 </body>
+
 </html>

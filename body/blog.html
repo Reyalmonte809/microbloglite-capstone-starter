@@ -6,8 +6,19 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/common.css">
     <title>Blog</title>
+    <style>
+        @media (min-width: 320px) and (max-width: 1000px) {
+
+            /* Styles for phones and small tablets */
+            #myPost {
+                width: 40;
+            }
+
+        }
+    </style>
 </head>
 <!--                               navBar                                -->
+
 <body>
     <div id="searchBar" class="searchBar">
         <img src="../images/animyspace.png" alt="logo" id="animyspace">
@@ -36,17 +47,18 @@
                 <input type="text" placeholder="Create a Post" class="bodyPost" id="bodyPost"><br>
                 <button class="btn btn-primary" id="createButton">POST</button>
             </div>
-            
+
             <div id="myPost" class="col-sm-6 col-md-6 col-lg-6">
                 <div class="everyPost" id="everyPost">
                     <strong>TimeLine</strong>
                 </div>
                 <div class="whitetext" id="postElement">
-    
+
                 </div>
             </div>
         </div>
     </div>
 
 </body>
+
 </html>
