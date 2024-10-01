@@ -147,6 +147,8 @@ nav{
 }
 .everyPost{
     background-color: red;
+    color:white;
+    text-align: center;
 }
 #myPost{
     border: 1px solid red;
